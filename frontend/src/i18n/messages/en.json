@@ -1,0 +1,16 @@
+{
+  "login": {
+    "tagline_line1": "Start your journey with SAA 2025.",
+    "tagline_line2": "Sign in to explore!",
+    "button_label": "LOGIN With Google",
+    "errors": {
+      "auth_failed": "Authentication failed. Please try again.",
+      "service_unavailable": "Authentication service is temporarily unavailable. Please try again later."
+    },
+    "aria": {
+      "login_button": "Login with Google",
+      "language_selector": "Select language",
+      "logo": "Sun* Annual Awards 2025"
+    }
+  }
+}

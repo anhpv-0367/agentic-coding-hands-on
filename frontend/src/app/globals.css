@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-bg-page: #00101a;
+  --color-header-bg: rgba(11, 15, 18, 0.8);
+  --color-btn-login-bg: #ffea9e;
+  --color-btn-login-hover: #f5de7a;
+  --color-btn-login-active: #ead663;
+  --color-text-white: #ffffff;
+  --color-text-on-btn: #00101a;
+  --color-footer-border: #2e3940;
+  --color-error: #ff6b6b;
+  --color-lang-hover: rgba(255, 255, 255, 0.08);
+  --color-lang-active: rgba(255, 255, 255, 0.12);
+  --color-dropdown-bg: rgba(11, 15, 18, 0.95);
+
+  /* Spacing */
+  --spacing-header-px: 144px;
+  --spacing-header-py: 12px;
+  --spacing-content-px: 144px;
+  --spacing-content-py: 96px;
+  --spacing-btn-px: 24px;
+  --spacing-btn-py: 16px;
+  --spacing-footer-px: 90px;
+  --spacing-footer-py: 40px;
+  --spacing-content-gap: 80px;
+  --spacing-text-group-gap: 24px;
+
+  /* Border & Radius */
+  --radius-btn-login: 8px;
+  --radius-lang-btn: 4px;
+  --border-footer: 1px solid #2e3940;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+body {
+  background-color: var(--color-bg-page);
+  color: var(--color-text-white);
+}

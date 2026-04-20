@@ -1,0 +1,16 @@
+{
+  "login": {
+    "tagline_line1": "Bắt đầu hành trình của bạn cùng SAA 2025.",
+    "tagline_line2": "Đăng nhập để khám phá!",
+    "button_label": "LOGIN With Google",
+    "errors": {
+      "auth_failed": "Xác thực thất bại. Vui lòng thử lại.",
+      "service_unavailable": "Dịch vụ xác thực tạm thời không khả dụng. Vui lòng thử lại sau."
+    },
+    "aria": {
+      "login_button": "Đăng nhập bằng Google",
+      "language_selector": "Chọn ngôn ngữ",
+      "logo": "Sun* Annual Awards 2025"
+    }
+  }
+}
