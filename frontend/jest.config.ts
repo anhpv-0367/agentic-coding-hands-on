@@ -13,6 +13,7 @@ const config: Config = {
   transformIgnorePatterns: [
     "/node_modules/(?!(next-intl|use-intl|@formatjs)/)",
   ],
+  testPathIgnorePatterns: ["/node_modules/", "/.next/", "/tests/e2e/"],
 };
 
 export default createJestConfig(config);

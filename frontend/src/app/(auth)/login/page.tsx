@@ -57,8 +57,8 @@ export default async function LoginPage({ searchParams }: PageProps) {
           inset: 0,
           zIndex: 0,
           backgroundImage: "url('/assets/login/images/wave-background.png')",
-          backgroundPosition: "-440px -217.975px",
-          backgroundSize: "159.763% 133.371%",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}
       />

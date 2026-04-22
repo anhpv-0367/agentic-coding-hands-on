@@ -26,9 +26,11 @@ describe("LanguageSelector", () => {
 
   it("renders VN flag and VN label by default", () => {
     render(<LanguageSelector />);
-    expect(screen.getByAltText("VN")).toBeInTheDocument();
     const button = screen.getByRole("button", { name: /select language/i });
     expect(button).toHaveTextContent("VN");
+    // Flag icon is decorative (aria-hidden), identified by src
+    const flagImg = button.querySelector('img[src*="flag-vn"]');
+    expect(flagImg).toBeInTheDocument();
   });
 
   it("dropdown is closed by default (aria-expanded=false)", () => {

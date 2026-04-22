@@ -3,7 +3,7 @@ import createIntlMiddleware from "next-intl/middleware";
 import { createServerClient } from "@supabase/ssr";
 import { locales, defaultLocale } from "./src/i18n/config";
 
-const PUBLIC_PATHS = ["/login", "/auth/callback"];
+const PUBLIC_PATHS = ["/login", "/auth/callback", "/prelaunch"];
 
 const intlMiddleware = createIntlMiddleware({
   locales,
@@ -13,6 +13,18 @@ const intlMiddleware = createIntlMiddleware({
 
 export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
+
+  // Prelaunch mode short-circuit — runs BEFORE Supabase to avoid unnecessary auth calls.
+  // When NEXT_PUBLIC_PRELAUNCH_MODE is "true", every request except /prelaunch itself,
+  // Next.js internals, and public assets is redirected to /prelaunch.
+  const prelaunchMode = process.env.NEXT_PUBLIC_PRELAUNCH_MODE === "true";
+  const isAsset =
+    pathname.startsWith("/_next") ||
+    pathname.startsWith("/assets") ||
+    pathname === "/favicon.ico";
+  if (prelaunchMode && pathname !== "/prelaunch" && !isAsset) {
+    return NextResponse.redirect(new URL("/prelaunch", request.url));
+  }
 
   const isPublicPath = PUBLIC_PATHS.some(
     (p) => pathname === p || pathname.startsWith(p + "/")
@@ -56,7 +68,5 @@ export async function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: [
-    "/((?!_next/static|_next/image|favicon.ico|assets|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)",
-  ],
+  matcher: ["/((?!_next|favicon.ico|assets).*)"],
 };

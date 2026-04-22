@@ -1,4 +1,11 @@
 {
+  "prelaunch": {
+    "title": "The event will begin in",
+    "metadata": {
+      "title": "Coming soon — Sun* Annual Awards 2025",
+      "description": "Count down to Sun* Annual Awards 2025."
+    }
+  },
   "login": {
     "tagline_line1": "Start your journey with SAA 2025.",
     "tagline_line2": "Sign in to explore!",
@@ -11,6 +18,277 @@
       "login_button": "Login with Google",
       "language_selector": "Select language",
       "logo": "Sun* Annual Awards 2025"
+    }
+  },
+  "common": {
+    "locale_name": "English",
+    "locale_short": "EN",
+    "locale_selector_aria": "Select language",
+    "sign_out": "Sign out",
+    "profile": "Profile",
+    "admin_dashboard": "Admin dashboard",
+    "skip_to_main": "Skip to main content"
+  },
+  "nav": {
+    "about_saa": "About SAA 2025",
+    "awards_info": "Awards Information",
+    "sunkudos": "Sun* Kudos",
+    "standards": "Common Standards",
+    "notifications_aria": "Notifications",
+    "profile_aria": "Account",
+    "logo_aria": "Go to Sun* Annual Awards 2025 home",
+    "sr_h1": "ROOT FURTHER — Sun* Annual Awards 2025"
+  },
+  "footer": {
+    "copyright": "© 2025 Sun*. All rights reserved.",
+    "nav": {
+      "about_saa": "About SAA 2025",
+      "awards_info": "Awards Information",
+      "sunkudos": "Sun* Kudos",
+      "standards": "Common Standards"
+    }
+  },
+  "awards": {
+    "metadata": {
+      "title": "Awards System — Sun* Annual Awards 2025",
+      "description": "Discover the 6 SAA 2025 award categories — Top Talent, Top Project, Top Project Leader, Best Manager, Signature 2025 - Creator, MVP."
+    },
+    "page": {
+      "caption": "Sun* Annual Awards 2025",
+      "title": "Awards system — SAA 2025"
+    },
+    "sidebar": {
+      "aria_label": "Award categories"
+    },
+    "card": {
+      "quantity_label": "Number of awards:",
+      "value_label": "Award value:",
+      "value_suffix_per_award": "per award",
+      "value_suffix_per_individual": "per individual award",
+      "value_suffix_per_team": "per team award",
+      "signature_separator": "Or",
+      "picture_alt": "{title} award badge",
+      "unit": {
+        "individual": "Individual",
+        "team": "Team",
+        "individual_or_team": "Individual or team"
+      }
+    },
+    "currency": {
+      "vnd": "VND"
+    },
+    "categories": {
+      "top_talent": {
+        "long_description": "The Top Talent award honours the most outstanding individuals at Sun* — people who have left a distinctive mark through their expertise, their commitment to the one-Sun* spirit, and their ability to inspire peers on the Root Further journey. Top Talent recognises the full picture: deep skill, collaboration, and the capacity to lead change within a team."
+      },
+      "top_project": {
+        "long_description": "Top Project recognises projects that delivered breakthrough value for customers and Sun*, demonstrating the capability to solve complex problems and create tangible impact. The award celebrates the teams that rooted deeply into the customer's problem to produce extraordinary outcomes."
+      },
+      "top_project_leader": {
+        "long_description": "Top Project Leader honours those who guided teams through difficulties while maintaining morale and quality during the hardest stretches. The award emphasises the positive influence a lead has on growing people and achieving project goals."
+      },
+      "best_manager": {
+        "long_description": "Best Manager honours exceptional managers who grow people and organisations — those who inspire, build a positive environment, and nurture the next generation of Sunners. The award is for managers who create lasting difference."
+      },
+      "signature_2025_creator": {
+        "long_description": "Signature 2025 - Creator honours the individual or team whose signature work defined 2025 — products, campaigns, or initiatives carrying the distinct Sun* touch and the Root Further spirit. The award celebrates daring to think, try, and differ."
+      },
+      "mvp": {
+        "long_description": "MVP (Most Valuable Person) honours the single most valuable contributor to Sun* this year — the person whose presence created a clear difference for the team, customers, and our shared growth. The highest honour at SAA 2025."
+      }
+    }
+  },
+  "kudos": {
+    "metadata": {
+      "title": "Sun* Kudos — Sun* Annual Awards 2025",
+      "description": "Live Sun* Kudos board for SAA 2025 — explore, react, and recognise colleagues."
+    },
+    "page": {
+      "hero_subtitle": "Recognition and appreciation system",
+      "hero_wordmark": "SAA 2025 KUDOS",
+      "sr_h1": "Sun* Kudos – Recognition board"
+    },
+    "action_bar": {
+      "placeholder": "Who would you like to thank or recognise today?"
+    },
+    "highlight": {
+      "caption": "Sun* Annual Awards 2025",
+      "title": "HIGHLIGHT KUDOS",
+      "counter": "{current}/{total}",
+      "prev_aria": "Previous Kudo",
+      "next_aria": "Next Kudo",
+      "empty": "No matching Kudos yet."
+    },
+    "filter": {
+      "hashtag": "Hashtag",
+      "department": "Department",
+      "all": "All"
+    },
+    "spotlight": {
+      "title": "{total} KUDOS",
+      "search_placeholder": "Search Sunner",
+      "tooltip": "{name} — {time}: received a Kudo",
+      "empty": "No Kudos yet — be the first!",
+      "error": "Could not load Spotlight board",
+      "retry": "Try again"
+    },
+    "all": {
+      "section_title": "ALL KUDOS",
+      "load_more": "Load more",
+      "no_more": "All loaded",
+      "empty": "No Kudos yet."
+    },
+    "post": {
+      "view_detail": "View detail",
+      "copy_link": "Copy Link",
+      "copy_success_toast": "Link copied — ready to share!",
+      "copy_error_toast": "Could not copy. Try again.",
+      "attached_images_count": "{count} images",
+      "liked_aria": "Liked — click to unlike",
+      "unliked_aria": "Like this Kudo"
+    },
+    "sidebar": {
+      "stats_title": "Your stats",
+      "stats_received": "Kudos you received",
+      "stats_sent": "Kudos you sent",
+      "stats_hearts": "Total hearts",
+      "stats_boxes_opened": "Secret boxes opened",
+      "stats_boxes_unopened": "Secret boxes unopened",
+      "open_gift": "Open gift",
+      "open_gift_disabled": "No gifts to open yet",
+      "leaderboard_tier_upgrades": "10 most recent tier upgrades",
+      "leaderboard_gift_recipients": "10 most recent gift recipients",
+      "empty": "No data yet"
+    },
+    "compose": {
+      "open_aria": "Open Kudo compose dialog",
+      "title": "Send a Kudo to a teammate",
+      "recipient_label": "Recipient",
+      "recipient_placeholder": "Search",
+      "recipient_empty": "No matching Sunners",
+      "recipient_select_hint": "Select a recipient from the suggestions",
+      "recipient_required": "Recipient is required",
+      "recipient_self_not_allowed": "Can't send a Kudo to yourself",
+      "title_field_label": "Title",
+      "title_field_placeholder": "Give your teammate a title",
+      "title_field_hint_example": "e.g. My motivator",
+      "title_field_hint_display": "This title appears as the headline of your Kudo.",
+      "title_field_required": "Title is required",
+      "title_field_max_length": "Max 80 characters",
+      "message_placeholder": "Write your message here…",
+      "message_hint": "You can use @ + name to mention a colleague",
+      "message_min_length": "Minimum 10 characters",
+      "message_max_length": "Maximum 2000 characters",
+      "message_required": "Message is required",
+      "standards_link": "Community standards",
+      "hashtag_label": "Hashtag",
+      "hashtag_add": "Hashtag",
+      "hashtag_max_hint": "Max 5",
+      "hashtag_required": "Add at least 1 hashtag",
+      "hashtag_duplicate": "Hashtag already added",
+      "hashtag_placeholder": "Type a tag and press Enter",
+      "hashtag_remove_aria": "Remove hashtag {tag}",
+      "image_label": "Image",
+      "image_add": "Image",
+      "image_max_hint": "Max 5",
+      "anonymous_label": "Send this Kudo anonymously",
+      "anonymous_display_name": "Anonymous",
+      "cancel": "Cancel",
+      "submit": "Send",
+      "submitting": "Sending…",
+      "success_toast": "Kudo sent!",
+      "success_anonymous_toast": "Sent anonymously",
+      "error_generic": "Something went wrong. Please try again.",
+      "discard_confirm_title": "Discard unsaved changes?",
+      "discard_confirm_body": "Your edits will not be saved.",
+      "discard_confirm_ok": "Discard",
+      "discard_confirm_cancel": "Keep editing"
+    },
+    "user": {
+      "tier": {
+        "new": "New Hero",
+        "rising": "Rising Hero",
+        "super": "Super Hero",
+        "legend": "Legend Hero"
+      }
+    },
+    "error": {
+      "generic": "Something went wrong. Please try again."
+    }
+  },
+  "homepage": {
+    "metadata": {
+      "title": "Home — Sun* Annual Awards 2025",
+      "description": "Sun* Annual Awards 2025 — ROOT FURTHER. Count down to ceremony night and explore the award categories.",
+      "og_title": "Sun* Annual Awards 2025 — ROOT FURTHER",
+      "og_description": "Count down to SAA 2025 with us."
+    },
+    "hero": {
+      "title": "ROOT FURTHER",
+      "coming_soon": "Coming soon",
+      "countdown": {
+        "days": "DAYS",
+        "hours": "HOURS",
+        "minutes": "MINUTES",
+        "aria_label": "Event countdown: {days} days, {hours} hours, {minutes} minutes remaining"
+      },
+      "event_time_label": "Time:",
+      "event_time_value": "6:30 PM",
+      "event_location_label": "Location:",
+      "event_location_value": "Army Arts Theatre",
+      "event_broadcast_note": "Live broadcast on Sun* Family Facebook Group",
+      "cta_about_awards": "ABOUT AWARDS",
+      "cta_about_kudos": "ABOUT KUDOS",
+      "root_further_alt": "ROOT FURTHER logo — Sun* Annual Awards 2025 theme",
+      "description_p1": "Facing the stormy transformation of the AI era and ever-higher customer expectations, Sun* has chosen a strategy of diversified capability — striving not only to master our own field, but to aim higher: a place where every Sunner is a \"problem-solver\", an expert at resolving every challenge and finding answers for every project, every customer, and every society-wide question.",
+      "description_p2": "Inspired by that diversity of capability, that flexibility of growth, and that spirit of going deep to break through in the AI era, \"Root Further\" has been chosen as the official theme of the Sun* Annual Awards 2025.",
+      "description_p3": "Beyond its literal meaning, \"Root Further\" is the journey of continually reaching further, rooting more firmly, and touching deeper \"geological\" layers to survive, rise, and nurture the ever-burning passion for creating value that defines Sun* people. Drawing on the image of roots that keep driving into the earth — pushing past each layer of \"sediment\" to absorb the purest nutrients — Sunners are likewise \"absorbing\" the nourishment of this era and the challenges of the market, renewing themselves daily, expanding their capabilities, and rooting themselves firmly in the AI era — a completely new \"geological\" layer, complex and unpredictable, yet promising boundless potential and opportunity.",
+      "description_quote": "\"A tree with deep roots fears no storm\"",
+      "description_quote_translation": "(English proverb)",
+      "description_p4": "In the face of every storm, only trees with deep enough roots stand firm. An organisation of individuals who trust their diverse capabilities, who are ready to create and embrace challenges, who master change — such an organisation not only stands steady through disruption but also seizes every advantage and conquers every challenge of the times. More than just the name of a new chapter in our organisation's journey, \"Root Further\" is an encouragement — urging each of us to trust ourselves, to dig deeper, to unlock every potential, to break every limit, and to dare to become the most versatile, most excellent version of ourselves. Because in the AI era, diversifying capability and harnessing the power of the moment are the prerequisites for lasting.",
+      "description_p5": "No one knows how many hidden \"geological\" layers still lie deep in the \"earth\" of technology and today's market. We only know this: once \"Root Further\" has become our rooted spirit, we will not fear — we will thrill at every uncertain land on our path forward. Because we always believe that in those boundless realms lie wonders and opportunities waiting for us to reach out."
+    },
+    "awards": {
+      "caption": "Sun* Annual Awards 2025",
+      "title": "Awards system",
+      "description": "The categories are awarded based on the TOP outstanding individuals.",
+      "details_cta": "View details",
+      "categories": {
+        "top_talent": {
+          "title": "Top Talent",
+          "description": "Honours the top individuals excelling on every dimension"
+        },
+        "top_project": {
+          "title": "Top Project",
+          "description": "Honours the top projects delivering outstanding value to customers and Sun*"
+        },
+        "top_project_leader": {
+          "title": "Top Project Leader",
+          "description": "Honours project leaders who guide their teams through tough challenges"
+        },
+        "best_manager": {
+          "title": "Best Manager",
+          "description": "Honours exceptional managers who grow people and the organisation"
+        },
+        "signature_2025_creator": {
+          "title": "Signature 2025 - Creator",
+          "description": "Honours the creators whose signature work defined 2025"
+        },
+        "mvp": {
+          "title": "MVP (Most Valuable Person)",
+          "description": "Honours the single most valuable contributor to Sun* this year"
+        }
+      }
+    },
+    "kudos": {
+      "label": "Recognition movement",
+      "title": "Sun* Kudos",
+      "body": "NEW FOR SAA 2025 — A peer recognition and appreciation program — running for the first time, open to every Sunner. Starting November 2025, Sun* people are encouraged to share recognition and thanks for their colleagues on the platform announced by the Organising Committee. These entries will serve as reference material for the Heads Council when selecting award recipients.",
+      "cta": "Learn more",
+      "wordmark": "KUDOS"
+    },
+    "widget": {
+      "button_aria": "Open quick-actions menu"
     }
   }
 }

@@ -1,21 +1,52 @@
 @import "tailwindcss";
 
 @theme {
-  /* Colors */
+  /* =====================================================================
+   * Colors (Login + Homepage)
+   * ===================================================================== */
   --color-bg-page: #00101a;
-  --color-header-bg: rgba(11, 15, 18, 0.8);
+  --color-bg-header: rgba(16, 20, 23, 0.8);
+  --color-bg-sunkudos-media: #0f0f0f;
   --color-btn-login-bg: #ffea9e;
   --color-btn-login-hover: #f5de7a;
   --color-btn-login-active: #ead663;
+  --color-btn-primary-bg: #ffea9e;
+  --color-btn-primary-hover: #f5de7a;
+  --color-btn-primary-active: #ead663;
+  --color-btn-secondary-bg: rgba(255, 234, 158, 0.1);
+  --color-accent-glow: #fae287;
+  --color-accent-warm: #dbd1c1;
   --color-text-white: #ffffff;
+  --color-text-gold: #ffea9e;
   --color-text-on-btn: #00101a;
+  --color-border-subtle: #998c5f;
+  --color-border-gold: #ffea9e;
+  --color-divider: #2e3940;
   --color-footer-border: #2e3940;
+  --color-status-notification: #d4271d;
   --color-error: #ff6b6b;
   --color-lang-hover: rgba(255, 255, 255, 0.08);
   --color-lang-active: rgba(255, 255, 255, 0.12);
   --color-dropdown-bg: rgba(11, 15, 18, 0.95);
+  --color-gold-hover-bg: rgba(255, 234, 158, 0.1);
 
-  /* Spacing */
+  /* Kudos colors */
+  --color-bg-kudos-card: #fff8e1;
+  --color-text-tag-red: #d4271d;
+  --color-text-meta: #999999;
+  --color-text-meta-on-card: #666666;
+  --color-text-user-pink: #f17676;
+  --color-border-bronze: #998c5f;
+  --color-kudos-heart-inactive: #999999;
+  --color-kudos-heart-active: #f17676;
+  --color-kudos-tooltip-bg: rgba(0, 16, 26, 0.9);
+  --color-kudos-toast-bg: rgba(0, 16, 26, 0.95);
+  --color-kudos-stat-card-bg: rgba(255, 234, 158, 0.05);
+  --color-kudos-stat-card-border: rgba(255, 234, 158, 0.2);
+
+  /* =====================================================================
+   * Spacing
+   * ===================================================================== */
   --spacing-header-px: 144px;
   --spacing-header-py: 12px;
   --spacing-content-px: 144px;
@@ -26,11 +57,154 @@
   --spacing-footer-py: 40px;
   --spacing-content-gap: 80px;
   --spacing-text-group-gap: 24px;
+  --spacing-section-gap: 120px;
+  --spacing-awards-gap: 80px;
 
-  /* Border & Radius */
+  /* Awards page spacing (12 tokens) */
+  --space-awards-page-pad-x: 144px;
+  --space-awards-page-pad-top: 96px;
+  --space-awards-section-gap: 120px;
+  --space-awards-title-inner-gap: 16px;
+  --space-awards-2col-gap: 80px;
+  --space-awards-sidebar-gap: 16px;
+  --space-awards-sidebar-pad: 16px;
+  --space-awards-cards-gap: 80px;
+  --space-awards-card-gap-x: 40px;
+  --space-awards-card-content-gap: 32px;
+  --space-awards-card-content-pad-y: 32px;
+  --space-awards-card-content-pad-x: 32px;
+
+  /* Kudos page spacing (14 tokens) */
+  --space-kudos-page-pad-x: 144px;
+  --space-kudos-hero-height: 512px;
+  --space-kudos-section-gap: 80px;
+  --space-kudos-action-pad-y: 24px;
+  --space-kudos-action-pad-x: 16px;
+  --space-kudos-highlight-gap-y: 40px;
+  --space-kudos-highlight-slide-gap: 24px;
+  --space-kudos-carousel-pad-x: 144px;
+  --space-kudos-card-pad-top: 40px;
+  --space-kudos-card-pad-x: 40px;
+  --space-kudos-card-pad-bottom: 16px;
+  --space-kudos-card-row-gap: 16px;
+  --space-kudos-sidebar-gap: 24px;
+  --space-kudos-main-col-gap: 40px;
+
+  /* =====================================================================
+   * Border & Radius
+   * ===================================================================== */
   --radius-btn-login: 8px;
   --radius-lang-btn: 4px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-pill: 100px;
   --border-footer: 1px solid #2e3940;
+  --border-awards-divider-gold-alpha: rgba(255, 234, 158, 0.2);
+
+  /* Kudos radii + borders */
+  --radius-kudos-card: 24px;
+  --radius-kudos-input: 8px;
+  --radius-kudos-pill: 100px;
+  --border-kudos-card-divider: 1px solid #2e3940;
+  --border-kudos-outline: 1px solid #998c5f;
+  --border-kudos-tier-outline: 0.5px solid #ffea9e;
+
+  /* =====================================================================
+   * Shadows / Glow
+   * ===================================================================== */
+  --shadow-gold-glow: 0 4px 4px 0 rgba(0, 0, 0, 0.25),
+    0 0 6px 0 #fae287;
+  --shadow-gold-glow-strong: 0 4px 4px 0 rgba(0, 0, 0, 0.25),
+    0 0 12px 0 #fae287;
+  --text-shadow-glow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 0 6px #fae287;
+
+  /* =====================================================================
+   * Z-index layers
+   * ===================================================================== */
+  --z-hero-bg: 1;
+  --z-content: 2;
+  --z-widget: 40;
+  --z-header: 50;
+  --z-dropdown: 60;
+  --z-skip-link: 70;
+  --z-modal: 80;
+
+  /* =====================================================================
+   * Font family
+   * ===================================================================== */
+  --font-digital-numbers: "DS-Digital", "Digital-7", "Courier New", monospace;
+
+  /* =====================================================================
+   * Typography tokens — Awards page
+   * --text-award-value:       36/700/44 — numeric rows (quantity, prize)
+   * --text-award-description: 16/700/24 letter-spacing 0.15 — justified body
+   * ===================================================================== */
+  --text-award-value-size: 36px;
+  --text-award-value-line-height: 44px;
+  --text-award-description-size: 16px;
+  --text-award-description-line-height: 24px;
+  --text-award-description-letter-spacing: 0.15px;
+
+  /* =====================================================================
+   * Typography tokens — Kudos page (6 new)
+   * ===================================================================== */
+  --text-kudos-hero-wordmark-size: 140px;
+  --text-kudos-hero-wordmark-line-height: 35px;
+  --text-kudos-hero-subtitle-size: 36px;
+  --text-kudos-hero-subtitle-line-height: 44px;
+  --text-kudos-stat-hero-size: 32px;
+  --text-kudos-stat-hero-line-height: 40px;
+  --text-kudos-stat-title-size: 22px;
+  --text-kudos-stat-title-line-height: 28px;
+  --text-kudos-kudo-body-size: 20px;
+  --text-kudos-kudo-body-line-height: 32px;
+  --text-kudos-meta-sm-size: 10.9px;
+  --text-kudos-meta-sm-line-height: 16.4px;
+
+  /* Kudos focus ring (reusable) */
+  --shadow-kudos-focus-ring: 0 0 0 2px #ffea9e, 0 0 0 4px #00101a;
+
+  /* =====================================================================
+   * Kudos Compose dialog tokens
+   * ===================================================================== */
+  --color-bg-kudos-modal-backdrop: rgba(0, 16, 26, 0.8);
+  --color-bg-input: #ffffff;
+  --color-required-asterisk: #cf1322;
+  --color-btn-toolbar-active-bg: rgba(255, 234, 158, 0.2);
+  --color-bg-close-tiny: #d4271d;
+
+  --text-kudos-compose-title-size: 32px;
+  --text-kudos-compose-title-line-height: 40px;
+  --text-kudos-compose-label-size: 22px;
+  --text-kudos-compose-label-line-height: 28px;
+  --text-kudos-compose-input-size: 16px;
+  --text-kudos-compose-input-line-height: 24px;
+  --text-required-asterisk-size: 16px;
+  --text-required-asterisk-line-height: 20px;
+
+  --space-compose-modal-padding: 40px;
+  --space-compose-section-gap: 32px;
+  --space-compose-field-label-gap: 8px;
+  --space-compose-helper-gap: 8px;
+  --space-compose-input-pad-y: 16px;
+  --space-compose-input-pad-x: 24px;
+  --space-compose-toolbar-gap: 0px;
+  --space-compose-toolbar-btn-gap: 8px;
+  --space-compose-chip-gap: 8px;
+  --space-compose-thumbnail-gap: 16px;
+  --space-compose-footer-gap: 24px;
+  --space-compose-footer-pad-y: 16px;
+  --space-compose-footer-pad-x: 40px;
+
+  --radius-compose-modal: 24px;
+  --radius-compose-input: 8px;
+  --radius-compose-checkbox: 4px;
+  --radius-compose-submit: 8px;
+  --radius-compose-cancel: 4px;
+  --radius-compose-close-tiny: 100px;
+
+  --shadow-compose-modal: 0 12px 48px rgba(0, 0, 0, 0.35);
 }
 
 @media (prefers-reduced-motion: reduce) {

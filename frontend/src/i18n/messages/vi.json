@@ -1,4 +1,11 @@
 {
+  "prelaunch": {
+    "title": "Sự kiện sẽ bắt đầu sau",
+    "metadata": {
+      "title": "Sự kiện sẽ bắt đầu sau — Sun* Annual Awards 2025",
+      "description": "Đếm ngược đến Sun* Annual Awards 2025."
+    }
+  },
   "login": {
     "tagline_line1": "Bắt đầu hành trình của bạn cùng SAA 2025.",
     "tagline_line2": "Đăng nhập để khám phá!",
@@ -11,6 +18,277 @@
       "login_button": "Đăng nhập bằng Google",
       "language_selector": "Chọn ngôn ngữ",
       "logo": "Sun* Annual Awards 2025"
+    }
+  },
+  "common": {
+    "locale_name": "Tiếng Việt",
+    "locale_short": "VN",
+    "locale_selector_aria": "Chọn ngôn ngữ",
+    "sign_out": "Đăng xuất",
+    "profile": "Hồ sơ",
+    "admin_dashboard": "Bảng điều khiển Admin",
+    "skip_to_main": "Bỏ qua, đến nội dung chính"
+  },
+  "nav": {
+    "about_saa": "About SAA 2025",
+    "awards_info": "Awards Information",
+    "sunkudos": "Sun* Kudos",
+    "standards": "Tiêu chuẩn chung",
+    "notifications_aria": "Thông báo",
+    "profile_aria": "Tài khoản",
+    "logo_aria": "Về trang chủ Sun* Annual Awards 2025",
+    "sr_h1": "ROOT FURTHER — Sun* Annual Awards 2025"
+  },
+  "footer": {
+    "copyright": "Bản quyền thuộc về Sun* © 2025",
+    "nav": {
+      "about_saa": "About SAA 2025",
+      "awards_info": "Awards Information",
+      "sunkudos": "Sun* Kudos",
+      "standards": "Tiêu chuẩn chung"
+    }
+  },
+  "awards": {
+    "metadata": {
+      "title": "Hệ thống giải thưởng — Sun* Annual Awards 2025",
+      "description": "Tìm hiểu 6 hạng mục giải thưởng Sun* Annual Awards 2025 — Top Talent, Top Project, Top Project Leader, Best Manager, Signature 2025 - Creator, MVP."
+    },
+    "page": {
+      "caption": "Sun* annual awards 2025",
+      "title": "Hệ thống giải thưởng SAA 2025"
+    },
+    "sidebar": {
+      "aria_label": "Danh mục giải thưởng"
+    },
+    "card": {
+      "quantity_label": "Số lượng giải thưởng:",
+      "value_label": "Giá trị giải thưởng:",
+      "value_suffix_per_award": "cho mỗi giải thưởng",
+      "value_suffix_per_individual": "cho giải cá nhân",
+      "value_suffix_per_team": "cho giải tập thể",
+      "signature_separator": "Hoặc",
+      "picture_alt": "Biểu tượng giải {title}",
+      "unit": {
+        "individual": "Cá nhân",
+        "team": "Tập thể",
+        "individual_or_team": "Cá nhân hoặc tập thể"
+      }
+    },
+    "currency": {
+      "vnd": "VNĐ"
+    },
+    "categories": {
+      "top_talent": {
+        "long_description": "Giải Top Talent dành cho những cá nhân xuất sắc nhất Sun* — người đã tạo ra dấu ấn vượt trội trong chuyên môn, cam kết tinh thần một-Sun*, và truyền cảm hứng cho đồng nghiệp trên hành trình Root Further. Top Talent vinh danh năng lực toàn diện: kỹ năng sâu, tinh thần hợp tác và khả năng dẫn dắt thay đổi trong đội ngũ."
+      },
+      "top_project": {
+        "long_description": "Top Project ghi nhận những dự án mang lại giá trị đột phá cho khách hàng và Sun*, thể hiện năng lực giải quyết vấn đề phức tạp và tạo ra tác động thực tế. Giải tôn vinh tập thể đã \"bén rễ sâu\" vào bài toán của khách hàng để tạo nên kết quả xuất sắc."
+      },
+      "top_project_leader": {
+        "long_description": "Top Project Leader vinh danh những người lãnh đạo dự án đã dẫn dắt đội ngũ vượt qua thử thách, giữ vững tinh thần và chất lượng trong những giai đoạn khó khăn nhất. Giải nhấn mạnh tầm ảnh hưởng tích cực của người lead trong việc phát triển con người và đạt được mục tiêu dự án."
+      },
+      "best_manager": {
+        "long_description": "Best Manager tôn vinh các quản lý xuất sắc trong phát triển con người và tổ chức — những người truyền cảm hứng, xây dựng môi trường làm việc tích cực và nuôi dưỡng thế hệ Sunner kế tiếp. Giải dành cho quản lý tạo ra khác biệt bền vững."
+      },
+      "signature_2025_creator": {
+        "long_description": "Signature 2025 - Creator vinh danh cá nhân hoặc tập thể tạo ra dấu ấn sáng tạo đặc trưng cho năm 2025 — những sản phẩm, chiến dịch hoặc sáng kiến mang đậm chất Sun* và tinh thần Root Further. Giải tôn vinh sự dám nghĩ, dám thử và dám khác biệt."
+      },
+      "mvp": {
+        "long_description": "MVP (Most Valuable Person) vinh danh cá nhân có đóng góp giá trị nhất cho Sun* trong năm — người mà sự hiện diện đã tạo ra khác biệt rõ rệt cho tập thể, cho khách hàng và cho hành trình phát triển chung. Giải cao quý nhất của SAA 2025."
+      }
+    }
+  },
+  "kudos": {
+    "metadata": {
+      "title": "Sun* Kudos — Sun* Annual Awards 2025",
+      "description": "Bảng Kudos trực tiếp của Sun* Annual Awards 2025 — khám phá, thả tim và ghi nhận đồng nghiệp."
+    },
+    "page": {
+      "hero_subtitle": "Hệ thống ghi nhận lời cảm ơn",
+      "hero_wordmark": "SAA 2025 KUDOS",
+      "sr_h1": "Sun* Kudos – Bảng ghi nhận"
+    },
+    "action_bar": {
+      "placeholder": "Hôm nay, bạn muốn gửi lời cảm ơn và ghi nhận đến ai?"
+    },
+    "highlight": {
+      "caption": "Sun* Annual Awards 2025",
+      "title": "HIGHLIGHT KUDOS",
+      "counter": "{current}/{total}",
+      "prev_aria": "Kudo trước",
+      "next_aria": "Kudo tiếp theo",
+      "empty": "Chưa có Kudo phù hợp."
+    },
+    "filter": {
+      "hashtag": "Hashtag",
+      "department": "Phòng ban",
+      "all": "Tất cả"
+    },
+    "spotlight": {
+      "title": "{total} KUDOS",
+      "search_placeholder": "Tìm kiếm sunner",
+      "tooltip": "{name} — {time}: đã nhận được một Kudos",
+      "empty": "Chưa có Kudo nào — hãy là người đầu tiên!",
+      "error": "Không tải được bảng Spotlight",
+      "retry": "Thử lại"
+    },
+    "all": {
+      "section_title": "ALL KUDOS",
+      "load_more": "Xem thêm",
+      "no_more": "Đã hiển thị tất cả",
+      "empty": "Chưa có Kudo nào."
+    },
+    "post": {
+      "view_detail": "Xem chi tiết",
+      "copy_link": "Copy Link",
+      "copy_success_toast": "Link copied — ready to share!",
+      "copy_error_toast": "Không thể sao chép. Thử lại sau.",
+      "attached_images_count": "{count} ảnh",
+      "liked_aria": "Đã thả tim, bấm để bỏ tim",
+      "unliked_aria": "Thả tim cho Kudo này"
+    },
+    "sidebar": {
+      "stats_title": "Thống kê của bạn",
+      "stats_received": "Số Kudos bạn nhận được",
+      "stats_sent": "Số Kudos bạn đã gửi",
+      "stats_hearts": "Tổng lượt thả tim",
+      "stats_boxes_opened": "Secret box đã mở",
+      "stats_boxes_unopened": "Secret box chưa mở",
+      "open_gift": "Mở quà",
+      "open_gift_disabled": "Chưa có quà nào để mở",
+      "leaderboard_tier_upgrades": "10 SUNNER CÓ SỰ THĂNG HẠNG MỚI NHẤT",
+      "leaderboard_gift_recipients": "10 SUNNER NHẬN QUÀ MỚI NHẤT",
+      "empty": "Chưa có dữ liệu"
+    },
+    "compose": {
+      "open_aria": "Mở dialog gửi lời cảm ơn",
+      "title": "Gửi lời cám ơn và ghi nhận đến đồng đội",
+      "recipient_label": "Người nhận",
+      "recipient_placeholder": "Tìm kiếm",
+      "recipient_empty": "Không tìm thấy Sunner phù hợp",
+      "recipient_select_hint": "Hãy chọn người nhận từ danh sách gợi ý",
+      "recipient_required": "Người nhận là bắt buộc",
+      "recipient_self_not_allowed": "Không thể gửi Kudo cho chính mình",
+      "title_field_label": "Danh hiệu",
+      "title_field_placeholder": "Dành tặng một danh hiệu cho đồng đội",
+      "title_field_hint_example": "Ví dụ: Người truyền động lực cho tôi",
+      "title_field_hint_display": "Danh hiệu sẽ hiển thị làm tiêu đề của Kudos của bạn.",
+      "title_field_required": "Danh hiệu là bắt buộc",
+      "title_field_max_length": "Tối đa 80 ký tự",
+      "message_placeholder": "Hãy gửi gắm lời cám ơn và ghi nhận đến đồng đội tại đây nhé!",
+      "message_hint": "Bạn có thể \"@\" + tên để nhắc tới đồng nghiệp khác",
+      "message_min_length": "Tối thiểu 10 ký tự",
+      "message_max_length": "Tối đa 2000 ký tự",
+      "message_required": "Nội dung là bắt buộc",
+      "standards_link": "Tiêu chuẩn cộng đồng",
+      "hashtag_label": "Hashtag",
+      "hashtag_add": "Hashtag",
+      "hashtag_max_hint": "Tối đa 5",
+      "hashtag_required": "Thêm ít nhất 1 hashtag",
+      "hashtag_duplicate": "Hashtag đã tồn tại",
+      "hashtag_placeholder": "Nhập hashtag và nhấn Enter",
+      "hashtag_remove_aria": "Xoá hashtag {tag}",
+      "image_label": "Image",
+      "image_add": "Image",
+      "image_max_hint": "Tối đa 5",
+      "anonymous_label": "Gửi lời cám ơn và ghi nhận ẩn danh",
+      "anonymous_display_name": "Ẩn danh",
+      "cancel": "Hủy",
+      "submit": "Gửi",
+      "submitting": "Đang gửi…",
+      "success_toast": "Đã gửi Kudo!",
+      "success_anonymous_toast": "Đã gửi ẩn danh",
+      "error_generic": "Đã có lỗi xảy ra. Vui lòng thử lại.",
+      "discard_confirm_title": "Bỏ các thay đổi chưa lưu?",
+      "discard_confirm_body": "Thay đổi của bạn sẽ không được lưu.",
+      "discard_confirm_ok": "Bỏ",
+      "discard_confirm_cancel": "Tiếp tục"
+    },
+    "user": {
+      "tier": {
+        "new": "New Hero",
+        "rising": "Rising Hero",
+        "super": "Super Hero",
+        "legend": "Legend Hero"
+      }
+    },
+    "error": {
+      "generic": "Đã có lỗi xảy ra. Vui lòng thử lại."
+    }
+  },
+  "homepage": {
+    "metadata": {
+      "title": "Trang chủ — Sun* Annual Awards 2025",
+      "description": "Giải thưởng thường niên Sun* 2025 — ROOT FURTHER. Đếm ngược đến đêm trao giải và khám phá hệ thống giải thưởng.",
+      "og_title": "Sun* Annual Awards 2025 — ROOT FURTHER",
+      "og_description": "Cùng đếm ngược đến SAA 2025."
+    },
+    "hero": {
+      "title": "ROOT FURTHER",
+      "coming_soon": "Coming soon",
+      "countdown": {
+        "days": "DAYS",
+        "hours": "HOURS",
+        "minutes": "MINUTES",
+        "aria_label": "Đếm ngược sự kiện: còn {days} ngày, {hours} giờ, {minutes} phút"
+      },
+      "event_time_label": "Thời gian:",
+      "event_time_value": "18h30",
+      "event_location_label": "Địa điểm:",
+      "event_location_value": "Nhà hát nghệ thuật quân đội",
+      "event_broadcast_note": "Tường thuật trực tiếp tại Group Facebook Sun* Family",
+      "cta_about_awards": "ABOUT AWARDS",
+      "cta_about_kudos": "ABOUT KUDOS",
+      "root_further_alt": "Logo ROOT FURTHER — chủ đề Sun* Annual Awards 2025",
+      "description_p1": "Đứng trước bối cảnh thay đổi như vũ bão của thời đại AI và yêu cầu ngày càng cao từ khách hàng, Sun* lựa chọn chiến lược đa dạng hóa năng lực để không chỉ nỗ lực trở thành tinh anh trong lĩnh vực của mình, mà còn hướng đến một cái đích cao hơn, nơi mọi Sunner đều là \"problem-solver\" - chuyên gia trong việc giải quyết mọi vấn đề, tìm lời giải cho mọi bài toán của dự án, khách hàng và xã hội.",
+      "description_p2": "Lấy cảm hứng từ sự đa dạng năng lực, khả năng phát triển linh hoạt cùng tinh thần đào sâu để bứt phá trong kỷ nguyên AI, \"Root Further\" đã được chọn để trở thành chủ đề chính thức của Lễ trao giải Sun* Annual Awards 2025.",
+      "description_p3": "Vượt ra khỏi nét nghĩa bề mặt, \"Root Further\" chính là hành trình chúng ta không ngừng vươn xa hơn, cắm rễ mạnh hơn, chạm đến những tầng \"địa chất\" ẩn sâu để tiếp tục tồn tại, vươn lên và nuôi dưỡng đam mê kiến tạo giá trị luôn cháy bỏng của người Sun*. Mượn hình ảnh bộ rễ liên tục đâm sâu vào lòng đất, mạnh mẽ len lỏi qua từng lớp \"trầm tích\" để thâm thấu những gì tinh tuý nhất, người Sun* cũng đang \"hấp thụ\" dưỡng chất từ thời đại và những thử thách của thị trường để làm mới mình mỗi ngày, mở rộng năng lực và mạnh mẽ \"bén rễ\" vào kỷ nguyên AI - một tầng \"địa chất\" hoàn toàn mới, phức tạp và khó đoán, nhưng cũng hứa hẹn vô vàn tiềm năng cùng cơ hội.",
+      "description_quote": "\"A tree with deep roots fears no storm\"",
+      "description_quote_translation": "(Cây sâu bén rễ, bão giông chẳng nề - Ngạn ngữ Anh)",
+      "description_p4": "Trước giông bão, chỉ những tán cây có bộ rễ đủ mạnh mới có thể trụ vững. Một tổ chức với những cá nhân tự tin vào năng lực đa dạng, sẵn sàng kiến tạo và đón nhận thử thách, làm chủ sự thay đổi là tổ chức không chỉ vững vàng trước biến động, mà còn khai thác được mọi lợi thế, chinh phục các thách thức của thời cuộc. Không đơn thuần là tên gọi của chương mới trên hành trình phát triển tổ chức, \"Root Further\" còn như một lời cổ vũ, động viên mỗi chúng ta hãy dám tin vào bản thân, dám đào sâu, khai mở mọi tiềm năng, dám phá bỏ giới hạn, dám trở thành phiên bản đa nhiệm và xuất sắc nhất của mình. Bởi trong thời đại AI, đa dạng năng lực và tận dụng sức mạnh thời cuộc chính là điều kiện tiên quyết để trường tồn.",
+      "description_p5": "Không ai biết trước ẩn sâu trong \"lòng đất\" của ngành công nghệ và thị trường hiện đại còn biết bao tầng \"địa chất\" bí ẩn. Chỉ biết rằng khi \"Root Further\" đã trở thành tinh thần cội rễ, chúng ta sẽ không sợ hãi, mà càng thấy háo hức trước bất cứ vùng vô định nào trên hành trình tiến về phía trước. Vì ta luôn tin rằng, trong chính những miền vô tận đó, là bao điều kỳ diệu và cơ hội vươn mình đang chờ ta."
+    },
+    "awards": {
+      "caption": "Sun* annual awards 2025",
+      "title": "Hệ thống giải thưởng",
+      "description": "Các hạng mục sẽ được trao giải theo TOP những người xuất sắc nhất.",
+      "details_cta": "Chi tiết",
+      "categories": {
+        "top_talent": {
+          "title": "Top Talent",
+          "description": "Vinh danh top cá nhân xuất sắc trên mọi phương diện"
+        },
+        "top_project": {
+          "title": "Top Project",
+          "description": "Vinh danh top dự án xuất sắc, tạo giá trị nổi bật cho khách hàng và Sun*"
+        },
+        "top_project_leader": {
+          "title": "Top Project Leader",
+          "description": "Vinh danh những người lãnh đạo dự án dẫn dắt đội ngũ vượt qua thử thách"
+        },
+        "best_manager": {
+          "title": "Best Manager",
+          "description": "Vinh danh các quản lý xuất sắc trong phát triển con người và tổ chức"
+        },
+        "signature_2025_creator": {
+          "title": "Signature 2025 - Creator",
+          "description": "Vinh danh cá nhân tạo ra dấu ấn sáng tạo đặc trưng trong năm 2025"
+        },
+        "mvp": {
+          "title": "MVP (Most Valuable Person)",
+          "description": "Vinh danh cá nhân có đóng góp giá trị nhất cho Sun* trong năm"
+        }
+      }
+    },
+    "kudos": {
+      "label": "Phong trào ghi nhận",
+      "title": "Sun* Kudos",
+      "body": "ĐIỂM MỚI CỦA SAA 2025 — Hoạt động ghi nhận và cảm ơn đồng nghiệp — lần đầu tiên được diễn ra dành cho tất cả Sunner. Hoạt động sẽ được triển khai vào tháng 11/2025, khuyến khích người Sun* chia sẻ những lời ghi nhận, cảm ơn đồng nghiệp trên hệ thống do BTC công bố. Đây sẽ là chất liệu để Hội đồng Heads tham khảo trong quá trình lựa chọn người đạt giải.",
+      "cta": "Chi tiết",
+      "wordmark": "KUDOS"
+    },
+    "widget": {
+      "button_aria": "Mở menu hành động nhanh"
     }
   }
 }

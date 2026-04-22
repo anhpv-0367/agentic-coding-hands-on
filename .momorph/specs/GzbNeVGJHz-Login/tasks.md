@@ -125,14 +125,14 @@
 
 **Purpose**: Responsive layout, reduced-motion support, and accessibility compliance
 
-- [ ] T039 [P] Add `@media (prefers-reduced-motion: reduce)` block: set `transition: none` for login button opacity/bg and language dropdown animations | `src/app/globals.css`
-- [ ] T040 [P] Add responsive Tailwind classes: mobile (`<768px`) — header `px-4`, content `px-6 pt-20 pb-12`, ROOT FURTHER `max-w-[280px] w-full`, tagline `text-base leading-7`, button `w-full`, footer `px-4 py-6`; tablet (`768–1023px`) — header `md:px-12`, ROOT FURTHER `md:w-[360px]` | `src/app/(auth)/login/page.tsx`, `src/components/layout/Header.tsx`, `src/components/layout/Footer.tsx`
-- [ ] T041 [P] Add Playwright viewport tests: 375×812 (mobile) — login button is full-width; 768×1024 (tablet) — ROOT FURTHER width ≤360px; 1440×1024 (desktop) — layout matches design | `tests/e2e/login.spec.ts`
-- [ ] T042 [P] Add axe-core accessibility test: run `checkA11y` on `/login` — zero violations at WCAG AA level | `tests/e2e/login.spec.ts`
+- [x] T039 [P] Add `@media (prefers-reduced-motion: reduce)` block: set `transition: none` for login button opacity/bg and language dropdown animations | `src/app/globals.css`
+- [x] T040 [P] Add responsive Tailwind classes: mobile (`<768px`) — header `px-4`, content `px-6 pt-20 pb-12`, ROOT FURTHER `max-w-[280px] w-full`, tagline `text-base leading-7`, button `w-full`, footer `px-4 py-6`; tablet (`768–1023px`) — header `md:px-12`, ROOT FURTHER `md:w-[360px]` | `src/app/(auth)/login/page.tsx`, `src/components/layout/Header.tsx`, `src/components/layout/Footer.tsx`
+- [x] T041 [P] Add Playwright viewport tests: 375×812 (mobile) — login button is full-width; 768×1024 (tablet) — ROOT FURTHER width ≤360px; 1440×1024 (desktop) — layout matches design | `tests/e2e/login.spec.ts`
+- [x] T042 [P] Add axe-core accessibility test: run `checkA11y` on `/login` — zero violations at WCAG AA level | `tests/e2e/login.spec.ts`
 - [ ] T043 Verify Tab key navigation order: SAA Logo → LanguageSelector → LoginButton (follow DOM order)
 - [ ] T044 Verify Enter/Space activates LoginButton (triggers OAuth) and LanguageSelector (opens dropdown)
-- [ ] T045 Verify focus returns to LoginButton after OAuth error: add `useEffect` in LoginButton that calls `buttonRef.current?.focus()` when `error` prop becomes non-null | `src/components/auth/LoginButton.tsx`
-- [ ] T046 Complete E2E test suite: happy path (mocked OAuth → redirect to `/`), error path (`?error=auth_failed` → error message shown), already-authenticated redirect (`/login` → `/`) | `tests/e2e/login.spec.ts`
+- [x] T045 Verify focus returns to LoginButton after OAuth error: add `useEffect` in LoginButton that calls `buttonRef.current?.focus()` when `error` prop becomes non-null | `src/components/auth/LoginButton.tsx`
+- [x] T046 Complete E2E test suite: happy path (mocked OAuth → redirect to `/`), error path (`?error=auth_failed` → error message shown), already-authenticated redirect (`/login` → `/`) | `tests/e2e/login.spec.ts`
 
 ---
 

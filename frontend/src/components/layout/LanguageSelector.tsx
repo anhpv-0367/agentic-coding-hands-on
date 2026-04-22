@@ -33,8 +33,7 @@ export default function LanguageSelector() {
 
   function selectLocale(newLocale: Locale) {
     setIsOpen(false);
-    router.replace(pathname, { scroll: false });
-    document.cookie = `NEXT_LOCALE=${newLocale};path=/;max-age=31536000`;
+    document.cookie = `NEXT_LOCALE=${newLocale};path=/;max-age=31536000;SameSite=Lax`;
     router.refresh();
   }
 
@@ -78,7 +77,7 @@ export default function LanguageSelector() {
             (e.currentTarget as HTMLButtonElement).style.background = "transparent";
         }}
       >
-        <Icon src={current.src} size={24} alt={current.label} />
+        <Icon src={current.src} size={24} alt="" aria-hidden="true" />
         <span style={{ flex: 1, textAlign: "center" }}>{current.label}</span>
         <Icon
           src="/assets/login/icons/chevron-down.svg"
@@ -139,7 +138,7 @@ export default function LanguageSelector() {
                   (e.currentTarget as HTMLButtonElement).style.background = "transparent";
                 }}
               >
-                <Icon src={src} size={24} alt={label} />
+                <Icon src={src} size={24} alt="" aria-hidden="true" />
                 <span>{label}</span>
               </button>
             )
