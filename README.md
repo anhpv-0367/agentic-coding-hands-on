@@ -80,3 +80,28 @@ npx supabase stop     # Dừng Supabase local
 ```sh
 # Web (Next.js):
 yarn dev              # hoặc npm run dev
+```
+
+### Kết quả:
+
+
+Login:
+<img width="1457" height="957" alt="image" src="https://github.com/user-attachments/assets/90956813-ad7a-4329-90c9-5a1c65c5087e" />
+
+Login bằng google (chỉ cho domain sun mới có quyền login)
+<img width="1457" height="957" alt="image" src="https://github.com/user-attachments/assets/cfb7de01-c464-4327-b0fd-2354e23661da" />
+
+hệ thống giải:
+<img width="1457" height="957" alt="image" src="https://github.com/user-attachments/assets/92817155-c3f5-4ce9-b707-aee35b60eb26" />
+
+Kudo:
+<img width="1457" height="957" alt="image" src="https://github.com/user-attachments/assets/476733dc-6303-4c54-95ac-7900a82b7871" />
+<img width="1457" height="957" alt="image" src="https://github.com/user-attachments/assets/e3996e19-dd4d-4408-bf1b-b40a5e28f294" />
+
+Send Kudo qua form thông qua api create
+<img width="1457" height="957" alt="image" src="https://github.com/user-attachments/assets/ad9471f4-aec0-4469-beb5-79be6c028236" />
+record được tạo:
+<img width="522" height="576" alt="image" src="https://github.com/user-attachments/assets/9f2bdef2-037d-4ed8-9267-1cf363654bcc" />
+
+Like kudo thông qua api reaction
+<img width="522" height="576" alt="image" src="https://github.com/user-attachments/assets/9f2bdef2-037d-4ed8-9267-1cf363654bcc" />
